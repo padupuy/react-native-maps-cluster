@@ -16,7 +16,6 @@ export function getRegion(latitude, longitude, latitudeDelta) {
 }
 
 export function getCluster(places, region) {
-    console.log('region', region)
     const cluster = supercluster({
         radius: 50,
         maxZoom: 16,
